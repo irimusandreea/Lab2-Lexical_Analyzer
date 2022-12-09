@@ -1,0 +1,9 @@
+start
+first : int;
+second : int;
+begin
+	read("The first integer is: ", first);
+	read("The second integer is: ", second);
+	sum := first + second;
+	write("The sum is: ", sum);
+end
